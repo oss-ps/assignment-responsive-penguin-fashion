@@ -1,57 +1,84 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    margin-left: 10px;
-    margin-top: 30px;
+.header {
+  margin-left: 10px;
+  margin-top: 30px;
 }
-.container{
-    width: 1150px;
-    margin: auto;
+.container {
+  width: 1150px;
+  margin: auto;
 }
-.logo{
-    width:200px;
-    float:left;
+.logo {
+  width: 200px;
+  float: left;
 }
-.nav-menu ul li a{
-    text-decoration: none;
-    font-size:16px;
-    font-family: 'Bodoni Moda', serif;
-    color:black;
-    font-weight: 500;
+.nav-menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Bodoni Moda", serif;
+  color: black;
+  font-weight: 400;
 }
-.nav-menu{
-    float: right;
+.nav-menu ul li a:hover {
+  background-color: hotpink;
 }
-.nav-menu ul{
-    list-style:none;
+.nav-menu {
+  float: right;
 }
-.nav-menu ul li{
-    float: left;
-    padding:15px 23px;  
+.nav-menu ul {
+  list-style: none;
+}
+.nav-menu ul li {
+  float: left;
+  padding: 15px 23px;
+}
+.first-header {
+  margin-top: 90px;
 }
 
-.first-section{
-    width:53%;
-    margin-top:95px;
-    padding-top:117px;
-    margin-left:40px;
-    padding-left:40px; 
-    float:left;  
+.first-section {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 45px;
+  float: right;
 }
-.img-1{
-    width: 32%;
-    margin-top: 11px;
-    margin-left: 5px;  
+.img-1 {
+  width: 40%;
+  margin-top: -71px;
+  margin-left: 56px;
+  float: left;
 }
-h1{
-    font-size:60px;
+h1 {
+  font-size: 75px;
+  font-weight: bolder;
 }
-.link-button{
-    text-decoration: none;
-    background-color:rgb(162,186,67);
-    border-radius: 10px;
-    padding:10px 10px;
-    font-weight: bold;
+
+button {
+  border: 1px solid #8da724;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 0;
+  padding: 15px 30px;
+  background-color: #8da724;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+button:hover {
+  color: lightgray;
+}
+.fa-shopping-cart {
+  font-size: 15px;
+  color: white;
+}
+.title-1 {
+  color: saddlebrown;
+  font-family: "Anton", sans-serif;
+}
+.title-2 {
+  color: blue;
+  font-family: "Anton", sans-serif;
 }
