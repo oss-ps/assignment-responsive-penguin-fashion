@@ -36,6 +36,7 @@
 }
 .first-header {
   margin-top: 90px;
+  overflow: hidden;
 }
 
 .first-section {
@@ -59,7 +60,6 @@ h1 {
 button {
   border: 1px solid #8da724;
   border-radius: 10px;
-  margin-top: 40px;
   margin-left: 0;
   padding: 15px 30px;
   background-color: #8da724;
